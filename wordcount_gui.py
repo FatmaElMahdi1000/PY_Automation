@@ -1,6 +1,8 @@
 import streamlit as st
 from pathlib import Path
-import PyPDF2, docx, pandas as pd
+import PyPDF2
+import docx
+import pandas as pd
 
 st.title("📄 Word Count Tool")
 uploaded_files = st.file_uploader("Upload files", accept_multiple_files=True)
